@@ -13,8 +13,8 @@ def main():
         subprocess.run([
             sys.executable, "-m", "streamlit", "run", 
             "dashboard_titik_panas.py",
-            "--server.port=8578",
-            "--server.address=localhost"
+            # "--server.port=8578",
+            # "--server.address=localhost"
         ])
         
     except KeyboardInterrupt:
